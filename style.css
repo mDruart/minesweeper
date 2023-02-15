@@ -1,0 +1,54 @@
+#grid {
+    background-color: rgb(143, 143, 143);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.red {
+    color :rgb(167, 73, 73);
+}
+
+.blue {
+    color : rgb(101, 101, 221)
+}
+
+.purple {
+    color : rgb(119, 25, 163);
+}
+
+.cell {
+    background-color: rgb(37, 37, 49);
+    border :rgb(29, 83, 83) 2px solid;
+    border-radius: 2px;
+    position : absolute;
+    width : 20px;
+    height : 20px;
+    left : 0;
+    top : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.revealed {
+    border-radius: 1px;
+    position: absolute;
+    width : 20px;
+    height : 20px;
+    left : 0;
+    top : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hovered {
+    background-color: rgb(62, 62, 78);
+}

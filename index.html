@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MineSweeper</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/ed62b2379a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <H1>Mine sweeper</H1>
+        <div id="params">
+            <h3>Nombre de mine : <span id="nb_mines" />  </h3>
+            <div class="slidecontainer">
+                <input type="range" min="10" max="100" value="75" class="slider" id="mines_range">
+            </div>
+            <button id="start" >START</button>
+        </div>
+        <h3>Nombres de mines restantes : <span id="nb_mines_act"/></h3>
+        <h2 id="lose"></h2>
+        <div id="grid" oncontextmenu="return false;"></div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
+
+ 
